@@ -14,6 +14,8 @@
 		EA7845F0263A64B7003DA3A2 /* GameCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA7845EE263A64B7003DA3A2 /* GameCollector.xcdatamodeld */; };
 		EA7845F2263A64B9003DA3A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA7845F1263A64B9003DA3A2 /* Assets.xcassets */; };
 		EA7845F5263A64B9003DA3A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA7845F3263A64B9003DA3A2 /* LaunchScreen.storyboard */; };
+		EA7845FD263F9CA9003DA3A2 /* image (2).png in Resources */ = {isa = PBXBuildFile; fileRef = EA7845FC263F9CA9003DA3A2 /* image (2).png */; };
+		EABC5CC3263FADD10014623E /* PlusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC5CC2263FADD10014623E /* PlusViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		EA7845F1263A64B9003DA3A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA7845F4263A64B9003DA3A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA7845F6263A64B9003DA3A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA7845FC263F9CA9003DA3A2 /* image (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image (2).png"; sourceTree = "<group>"; };
+		EABC5CC2263FADD10014623E /* PlusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 		EA7845E4263A64B7003DA3A2 /* GameCollector */ = {
 			isa = PBXGroup;
 			children = (
+				EA7845FC263F9CA9003DA3A2 /* image (2).png */,
 				EA7845E5263A64B7003DA3A2 /* AppDelegate.swift */,
 				EA7845E7263A64B7003DA3A2 /* SceneDelegate.swift */,
+				EABC5CC2263FADD10014623E /* PlusViewController.swift */,
 				EA7845E9263A64B7003DA3A2 /* ViewController.swift */,
 				EA7845EB263A64B7003DA3A2 /* Main.storyboard */,
 				EA7845F1263A64B9003DA3A2 /* Assets.xcassets */,
@@ -130,6 +136,7 @@
 			files = (
 				EA7845F5263A64B9003DA3A2 /* LaunchScreen.storyboard in Resources */,
 				EA7845F2263A64B9003DA3A2 /* Assets.xcassets in Resources */,
+				EA7845FD263F9CA9003DA3A2 /* image (2).png in Resources */,
 				EA7845ED263A64B7003DA3A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA7845EA263A64B7003DA3A2 /* ViewController.swift in Sources */,
+				EABC5CC3263FADD10014623E /* PlusViewController.swift in Sources */,
 				EA7845E6263A64B7003DA3A2 /* AppDelegate.swift in Sources */,
 				EA7845E8263A64B7003DA3A2 /* SceneDelegate.swift in Sources */,
 				EA7845F0263A64B7003DA3A2 /* GameCollector.xcdatamodeld in Sources */,
@@ -290,6 +298,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GameCollector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +316,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GameCollector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
